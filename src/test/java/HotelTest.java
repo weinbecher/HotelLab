@@ -33,5 +33,10 @@ public class HotelTest {
         assertEquals(2,hotel.bedroomCount());
         assertEquals(1,hotel.conferenceRoomCount());
     }
+//
+//    @Test
+//    public void hotelCanCheckInGuest(){
+//
+//    }
 
 }

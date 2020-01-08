@@ -30,4 +30,8 @@ public class Bedroom {
     public String getRoomType() {
         return this.roomType;
     }
+
+    public void addGuest(Guest guest) {
+        guests.add(guest);
+    }
 }

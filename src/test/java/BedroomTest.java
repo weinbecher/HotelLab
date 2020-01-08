@@ -32,6 +32,13 @@ public class BedroomTest {
 
     }
 
+    @Test
+    public void bedroomCanCheckInGuest(){
+        bedroom1.addGuest(guest1);
+        bedroom1.addGuest(guest2);
+        assertEquals(2,bedroom1.guestsCount());
+    }
+
 
 
 

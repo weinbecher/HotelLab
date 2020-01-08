@@ -25,4 +25,12 @@ public class Hotel {
         this.conferenceRooms.add(conferenceRoom);
 
     }
+
+    public void checkInGuestBedroom(Guest guest, Bedroom bedroom) {
+        bedroom.addGuest(guest);
+    }
+
+    public void checkInGuestConferenceRoom(Guest guest, ConferenceRoom conferenceRoom) {
+        conferenceRoom.addGuest(guest);
+    }
 }

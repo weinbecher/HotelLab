@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b5f2b70-8e6d-42e3-8723-6248fefd408d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Booking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bedroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bedroom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ConferenceRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ConferenceRoom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hotel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/HotelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HotelTest.java" afterDir="false" />
     </list>
@@ -34,7 +37,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.HotelTest.hotelCanCheckInGuest">
+  <component name="RunManager" selected="JUnit.HotelTest.hotelCanCheckoutGuests">
     <configuration name="All in CodeClanTowers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers" />
       <option name="PACKAGE_NAME" value="" />
@@ -53,8 +56,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HotelTest.hotelCanCheckoutGuests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanTowers" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HotelTest" />
+      <option name="METHOD_NAME" value="hotelCanCheckoutGuests" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HotelTest.hotelCanCheckoutGuests" />
         <item itemvalue="JUnit.HotelTest.hotelCanCheckInGuest" />
         <item itemvalue="JUnit.All in CodeClanTowers" />
       </list>
@@ -125,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578490390201</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="MVP done">
+      <created>1578491465706</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1578491465706</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -134,37 +155,38 @@
     <MESSAGE value="bedroom class tested" />
     <MESSAGE value="hotel class tested" />
     <MESSAGE value="add guest checkIn method" />
-    <option name="LAST_COMMIT_MESSAGE" value="add guest checkIn method" />
+    <MESSAGE value="MVP done" />
+    <option name="LAST_COMMIT_MESSAGE" value="MVP done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="480" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1578482926577">
       <screen x="0" y="23" width="1344" height="743" />
     </state>
     <state x="480" y="117" key="#com.intellij.ide.util.MemberChooser/0.23.1344.743@0.23.1344.743" timestamp="1578482926577" />
-    <state x="179" y="23" key="CommitChangelistDialog2" timestamp="1578490390085">
+    <state x="179" y="23" key="CommitChangelistDialog2" timestamp="1578491465602">
       <screen x="0" y="23" width="1344" height="740" />
     </state>
-    <state x="179" y="23" key="CommitChangelistDialog2/0.23.1344.740@0.23.1344.740" timestamp="1578490390085" />
+    <state x="179" y="23" key="CommitChangelistDialog2/0.23.1344.740@0.23.1344.740" timestamp="1578491465602" />
     <state x="179" y="23" key="CommitChangelistDialog2/0.23.1344.743@0.23.1344.743" timestamp="1578486080204" />
-    <state width="1302" height="185" key="GridCell.Tab.0.bottom" timestamp="1578491390492">
+    <state width="1302" height="185" key="GridCell.Tab.0.bottom" timestamp="1578492279112">
       <screen x="0" y="23" width="1344" height="740" />
     </state>
-    <state width="1302" height="185" key="GridCell.Tab.0.bottom/0.23.1344.740@0.23.1344.740" timestamp="1578491390492" />
+    <state width="1302" height="185" key="GridCell.Tab.0.bottom/0.23.1344.740@0.23.1344.740" timestamp="1578492279112" />
     <state width="1302" height="185" key="GridCell.Tab.0.bottom/0.23.1344.743@0.23.1344.743" timestamp="1578486062480" />
-    <state width="1302" height="185" key="GridCell.Tab.0.center" timestamp="1578491390491">
+    <state width="1302" height="185" key="GridCell.Tab.0.center" timestamp="1578492279111">
       <screen x="0" y="23" width="1344" height="740" />
     </state>
-    <state width="1302" height="185" key="GridCell.Tab.0.center/0.23.1344.740@0.23.1344.740" timestamp="1578491390491" />
+    <state width="1302" height="185" key="GridCell.Tab.0.center/0.23.1344.740@0.23.1344.740" timestamp="1578492279111" />
     <state width="1302" height="185" key="GridCell.Tab.0.center/0.23.1344.743@0.23.1344.743" timestamp="1578486062479" />
-    <state width="1302" height="185" key="GridCell.Tab.0.left" timestamp="1578491390490">
+    <state width="1302" height="185" key="GridCell.Tab.0.left" timestamp="1578492279111">
       <screen x="0" y="23" width="1344" height="740" />
     </state>
-    <state width="1302" height="185" key="GridCell.Tab.0.left/0.23.1344.740@0.23.1344.740" timestamp="1578491390490" />
+    <state width="1302" height="185" key="GridCell.Tab.0.left/0.23.1344.740@0.23.1344.740" timestamp="1578492279111" />
     <state width="1302" height="185" key="GridCell.Tab.0.left/0.23.1344.743@0.23.1344.743" timestamp="1578486062479" />
-    <state width="1302" height="185" key="GridCell.Tab.0.right" timestamp="1578491390491">
+    <state width="1302" height="185" key="GridCell.Tab.0.right" timestamp="1578492279111">
       <screen x="0" y="23" width="1344" height="740" />
     </state>
-    <state width="1302" height="185" key="GridCell.Tab.0.right/0.23.1344.740@0.23.1344.740" timestamp="1578491390491" />
+    <state width="1302" height="185" key="GridCell.Tab.0.right/0.23.1344.740@0.23.1344.740" timestamp="1578492279111" />
     <state width="1302" height="185" key="GridCell.Tab.0.right/0.23.1344.743@0.23.1344.743" timestamp="1578486062480" />
     <state x="168" y="46" key="SettingsEditor" timestamp="1578482499587">
       <screen x="0" y="23" width="1344" height="745" />

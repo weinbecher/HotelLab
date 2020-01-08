@@ -14,7 +14,7 @@ public class ConferenceRoomTest {
     }
 
     @Test
-    public void conferenceHasInitalValues(){
+    public void conferenceHasInitialValues(){
         assertEquals("Chocolate",conferenceRoom1.getName());
         assertEquals(6,conferenceRoom1.getCapacity());
         assertEquals(0,conferenceRoom1.guestsCount());

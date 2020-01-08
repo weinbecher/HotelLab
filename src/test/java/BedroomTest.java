@@ -15,9 +15,9 @@ public class BedroomTest {
 
     @Before
     public void before(){
-        bedroom1 = new Bedroom(1,2,"Double");
-        bedroom2 = new Bedroom(2,1,"Single");
-        bedroom3 = new Bedroom(2,1,"Single");
+        bedroom1 = new Bedroom(1,2,"Double",45.60);
+        bedroom2 = new Bedroom(2,1,"Single",45.60);
+        bedroom3 = new Bedroom(2,1,"Single",45.60);
         guest1 = new Guest("Aresky");
         guest2 = new Guest("Sophia");
         guest3 = new Guest("Nelson");
@@ -38,6 +38,7 @@ public class BedroomTest {
         bedroom1.addGuest(guest2);
         assertEquals(2,bedroom1.guestsCount());
     }
+
 
 
 

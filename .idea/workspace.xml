@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b5f2b70-8e6d-42e3-8723-6248fefd408d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bedroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bedroom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BedroomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BedroomTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BookingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BookingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HotelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HotelTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,15 +38,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.BookingTest.bookingHasInitialValues">
-    <configuration name="All in CodeClanTowers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeClanTowers" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.HotelTest.returnCollectionOfOnlyVacantBedrooms">
     <configuration name="BookingTest.bookingHasInitialValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers" />
       <option name="PACKAGE_NAME" value="" />
@@ -52,11 +49,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HotelTest.hotelCanCheckInGuest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookingTest.bookingTotalBill" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HotelTest" />
-      <option name="METHOD_NAME" value="hotelCanCheckInGuest" />
+      <option name="MAIN_CLASS_NAME" value="BookingTest" />
+      <option name="METHOD_NAME" value="bookingTotalBill" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -72,12 +69,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HotelTest.returnCollectionOfOnlyVacantBedrooms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanTowers" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HotelTest" />
+      <option name="METHOD_NAME" value="returnCollectionOfOnlyVacantBedrooms" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotelTest.returnsBookingWhenBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanTowers" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HotelTest" />
+      <option name="METHOD_NAME" value="returnsBookingWhenBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HotelTest.returnCollectionOfOnlyVacantBedrooms" />
+        <item itemvalue="JUnit.HotelTest.returnsBookingWhenBook" />
+        <item itemvalue="JUnit.BookingTest.bookingTotalBill" />
         <item itemvalue="JUnit.BookingTest.bookingHasInitialValues" />
         <item itemvalue="JUnit.HotelTest.hotelCanCheckoutGuests" />
-        <item itemvalue="JUnit.HotelTest.hotelCanCheckInGuest" />
-        <item itemvalue="JUnit.All in CodeClanTowers" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578492606669</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="finished test for initail values in booking">
+      <created>1578493143744</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1578493143744</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -179,45 +204,55 @@
     <MESSAGE value="MVP done" />
     <MESSAGE value="Added booking class" />
     <MESSAGE value="Created constructor for booking" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created constructor for booking" />
+    <MESSAGE value="finished test for initail values in booking" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished test for initail values in booking" />
   </component>
   <component name="WindowStateProjectService">
     <state x="480" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1578482926577">
       <screen x="0" y="23" width="1344" height="743" />
     </state>
     <state x="480" y="117" key="#com.intellij.ide.util.MemberChooser/0.23.1344.743@0.23.1344.743" timestamp="1578482926577" />
-    <state x="179" y="23" key="CommitChangelistDialog2" timestamp="1578492606562">
+    <state x="179" y="23" key="CommitChangelistDialog2" timestamp="1578493143642">
       <screen x="0" y="23" width="1344" height="740" />
     </state>
-    <state x="179" y="23" key="CommitChangelistDialog2/0.23.1344.740@0.23.1344.740" timestamp="1578492606562" />
+    <state x="179" y="23" key="CommitChangelistDialog2/0.23.1344.740@0.23.1344.740" timestamp="1578493143642" />
     <state x="179" y="23" key="CommitChangelistDialog2/0.23.1344.743@0.23.1344.743" timestamp="1578486080204" />
-    <state width="1302" height="185" key="GridCell.Tab.0.bottom" timestamp="1578493057946">
-      <screen x="0" y="23" width="1344" height="740" />
+    <state width="1302" height="183" key="GridCell.Tab.0.bottom" timestamp="1578495177551">
+      <screen x="0" y="23" width="1344" height="736" />
     </state>
-    <state width="1302" height="185" key="GridCell.Tab.0.bottom/0.23.1344.740@0.23.1344.740" timestamp="1578493057946" />
+    <state width="1302" height="183" key="GridCell.Tab.0.bottom/0.23.1344.736@0.23.1344.736" timestamp="1578495177551" />
+    <state width="1302" height="185" key="GridCell.Tab.0.bottom/0.23.1344.740@0.23.1344.740" timestamp="1578493583502" />
     <state width="1302" height="185" key="GridCell.Tab.0.bottom/0.23.1344.743@0.23.1344.743" timestamp="1578486062480" />
-    <state width="1302" height="185" key="GridCell.Tab.0.center" timestamp="1578493057945">
-      <screen x="0" y="23" width="1344" height="740" />
+    <state width="1302" height="183" key="GridCell.Tab.0.center" timestamp="1578495177550">
+      <screen x="0" y="23" width="1344" height="736" />
     </state>
-    <state width="1302" height="185" key="GridCell.Tab.0.center/0.23.1344.740@0.23.1344.740" timestamp="1578493057945" />
+    <state width="1302" height="183" key="GridCell.Tab.0.center/0.23.1344.736@0.23.1344.736" timestamp="1578495177550" />
+    <state width="1302" height="185" key="GridCell.Tab.0.center/0.23.1344.740@0.23.1344.740" timestamp="1578493583501" />
     <state width="1302" height="185" key="GridCell.Tab.0.center/0.23.1344.743@0.23.1344.743" timestamp="1578486062479" />
-    <state width="1302" height="185" key="GridCell.Tab.0.left" timestamp="1578493057945">
-      <screen x="0" y="23" width="1344" height="740" />
+    <state width="1302" height="183" key="GridCell.Tab.0.left" timestamp="1578495177550">
+      <screen x="0" y="23" width="1344" height="736" />
     </state>
-    <state width="1302" height="185" key="GridCell.Tab.0.left/0.23.1344.740@0.23.1344.740" timestamp="1578493057945" />
+    <state width="1302" height="183" key="GridCell.Tab.0.left/0.23.1344.736@0.23.1344.736" timestamp="1578495177550" />
+    <state width="1302" height="185" key="GridCell.Tab.0.left/0.23.1344.740@0.23.1344.740" timestamp="1578493583501" />
     <state width="1302" height="185" key="GridCell.Tab.0.left/0.23.1344.743@0.23.1344.743" timestamp="1578486062479" />
-    <state width="1302" height="185" key="GridCell.Tab.0.right" timestamp="1578493057946">
-      <screen x="0" y="23" width="1344" height="740" />
+    <state width="1302" height="183" key="GridCell.Tab.0.right" timestamp="1578495177551">
+      <screen x="0" y="23" width="1344" height="736" />
     </state>
-    <state width="1302" height="185" key="GridCell.Tab.0.right/0.23.1344.740@0.23.1344.740" timestamp="1578493057946" />
+    <state width="1302" height="183" key="GridCell.Tab.0.right/0.23.1344.736@0.23.1344.736" timestamp="1578495177551" />
+    <state width="1302" height="185" key="GridCell.Tab.0.right/0.23.1344.740@0.23.1344.740" timestamp="1578493583502" />
     <state width="1302" height="185" key="GridCell.Tab.0.right/0.23.1344.743@0.23.1344.743" timestamp="1578486062480" />
     <state x="168" y="46" key="SettingsEditor" timestamp="1578482499587">
       <screen x="0" y="23" width="1344" height="745" />
     </state>
     <state x="168" y="46" key="SettingsEditor/0.23.1344.745@0.23.1344.745" timestamp="1578482499587" />
-    <state x="332" y="87" width="670" height="676" key="search.everywhere.popup" timestamp="1578492674345">
-      <screen x="0" y="23" width="1344" height="740" />
+    <state x="322" y="23" width="690" height="736" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578494903023">
+      <screen x="0" y="23" width="1344" height="736" />
     </state>
+    <state x="322" y="23" width="690" height="736" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1344.736@0.23.1344.736" timestamp="1578494903023" />
+    <state x="332" y="87" width="670" height="673" key="search.everywhere.popup" timestamp="1578494441234">
+      <screen x="0" y="23" width="1344" height="736" />
+    </state>
+    <state x="332" y="87" width="670" height="673" key="search.everywhere.popup/0.23.1344.736@0.23.1344.736" timestamp="1578494441234" />
     <state x="332" y="87" width="670" height="676" key="search.everywhere.popup/0.23.1344.740@0.23.1344.740" timestamp="1578492674345" />
   </component>
 </project>

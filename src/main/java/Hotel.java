@@ -43,4 +43,17 @@ public class Hotel {
     }
 
 
+    public Booking bookRoom(Bedroom bedroom, int i) {
+        return new Booking(bedroom,i);
+    }
+
+    public ArrayList<Bedroom> getVacantBedrooms() {
+         ArrayList<Bedroom> result = new ArrayList<Bedroom>();
+        for(Bedroom bedroom : this.bedrooms){
+            if (bedroom.guestsCount() == 0){
+                result.add(bedroom);
+            }
+        }
+        return result;
+    }
 }

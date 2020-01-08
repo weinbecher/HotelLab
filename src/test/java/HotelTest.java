@@ -1,6 +1,8 @@
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.ArrayList;
+
 import static org.junit.Assert.assertEquals;
 
 public class HotelTest {
@@ -16,8 +18,8 @@ public class HotelTest {
     @Before
     public void before(){
         hotel = new Hotel();
-        bedroom1 = new Bedroom(1,2,"Double");
-        bedroom2 = new Bedroom(2,1,"Single");
+        bedroom1 = new Bedroom(1,2,"Double",50.00);
+        bedroom2 = new Bedroom(2,1,"Single",45.68);
         conferenceRoom1 = new ConferenceRoom(6,"Chocolate");
         guest1 = new Guest("Aresky");
         guest2 = new Guest("Sophia");
@@ -70,4 +72,23 @@ public class HotelTest {
         assertEquals(0,conferenceRoom1.guestsCount());
 
     }
+
+    @Test
+    public void returnsBookingWhenBook(){
+        Booking booking = hotel.bookRoom(bedroom1,3);
+        assertEquals(3,booking.getNights());
+        assertEquals(150,booking.totalBill(),0.01);
+    }
+
+    @Test
+    public void returnCollectionOfOnlyVacantBedrooms(){
+        hotel.addBedroom(bedroom1);
+        hotel.addBedroom(bedroom2);
+        bedroom1.addGuest(guest1);
+        bedroom1.addGuest(guest2);
+        ArrayList<Bedroom> vacantRooms = hotel.getVacantBedrooms();
+        assertEquals(1,vacantRooms.size());
+
+    }
+
 }

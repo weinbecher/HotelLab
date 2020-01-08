@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b5f2b70-8e6d-42e3-8723-6248fefd408d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Booking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Bedroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bedroom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ConferenceRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ConferenceRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HotelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HotelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BookingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BookingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +33,21 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.HotelTest.hotelCanCheckoutGuests">
+  <component name="RunManager" selected="JUnit.BookingTest.bookingHasInitialValues">
     <configuration name="All in CodeClanTowers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookingTest.bookingHasInitialValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanTowers" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BookingTest" />
+      <option name="METHOD_NAME" value="bookingHasInitialValues" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -68,6 +74,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BookingTest.bookingHasInitialValues" />
         <item itemvalue="JUnit.HotelTest.hotelCanCheckoutGuests" />
         <item itemvalue="JUnit.HotelTest.hotelCanCheckInGuest" />
         <item itemvalue="JUnit.All in CodeClanTowers" />
@@ -146,7 +153,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578491465706</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added booking class">
+      <created>1578492558724</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1578492558724</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Created constructor for booking">
+      <created>1578492606669</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1578492606669</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -156,41 +177,47 @@
     <MESSAGE value="hotel class tested" />
     <MESSAGE value="add guest checkIn method" />
     <MESSAGE value="MVP done" />
-    <option name="LAST_COMMIT_MESSAGE" value="MVP done" />
+    <MESSAGE value="Added booking class" />
+    <MESSAGE value="Created constructor for booking" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created constructor for booking" />
   </component>
   <component name="WindowStateProjectService">
     <state x="480" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1578482926577">
       <screen x="0" y="23" width="1344" height="743" />
     </state>
     <state x="480" y="117" key="#com.intellij.ide.util.MemberChooser/0.23.1344.743@0.23.1344.743" timestamp="1578482926577" />
-    <state x="179" y="23" key="CommitChangelistDialog2" timestamp="1578492558614">
+    <state x="179" y="23" key="CommitChangelistDialog2" timestamp="1578492606562">
       <screen x="0" y="23" width="1344" height="740" />
     </state>
-    <state x="179" y="23" key="CommitChangelistDialog2/0.23.1344.740@0.23.1344.740" timestamp="1578492558614" />
+    <state x="179" y="23" key="CommitChangelistDialog2/0.23.1344.740@0.23.1344.740" timestamp="1578492606562" />
     <state x="179" y="23" key="CommitChangelistDialog2/0.23.1344.743@0.23.1344.743" timestamp="1578486080204" />
-    <state width="1302" height="185" key="GridCell.Tab.0.bottom" timestamp="1578492279112">
+    <state width="1302" height="185" key="GridCell.Tab.0.bottom" timestamp="1578493057946">
       <screen x="0" y="23" width="1344" height="740" />
     </state>
-    <state width="1302" height="185" key="GridCell.Tab.0.bottom/0.23.1344.740@0.23.1344.740" timestamp="1578492279112" />
+    <state width="1302" height="185" key="GridCell.Tab.0.bottom/0.23.1344.740@0.23.1344.740" timestamp="1578493057946" />
     <state width="1302" height="185" key="GridCell.Tab.0.bottom/0.23.1344.743@0.23.1344.743" timestamp="1578486062480" />
-    <state width="1302" height="185" key="GridCell.Tab.0.center" timestamp="1578492279111">
+    <state width="1302" height="185" key="GridCell.Tab.0.center" timestamp="1578493057945">
       <screen x="0" y="23" width="1344" height="740" />
     </state>
-    <state width="1302" height="185" key="GridCell.Tab.0.center/0.23.1344.740@0.23.1344.740" timestamp="1578492279111" />
+    <state width="1302" height="185" key="GridCell.Tab.0.center/0.23.1344.740@0.23.1344.740" timestamp="1578493057945" />
     <state width="1302" height="185" key="GridCell.Tab.0.center/0.23.1344.743@0.23.1344.743" timestamp="1578486062479" />
-    <state width="1302" height="185" key="GridCell.Tab.0.left" timestamp="1578492279111">
+    <state width="1302" height="185" key="GridCell.Tab.0.left" timestamp="1578493057945">
       <screen x="0" y="23" width="1344" height="740" />
     </state>
-    <state width="1302" height="185" key="GridCell.Tab.0.left/0.23.1344.740@0.23.1344.740" timestamp="1578492279111" />
+    <state width="1302" height="185" key="GridCell.Tab.0.left/0.23.1344.740@0.23.1344.740" timestamp="1578493057945" />
     <state width="1302" height="185" key="GridCell.Tab.0.left/0.23.1344.743@0.23.1344.743" timestamp="1578486062479" />
-    <state width="1302" height="185" key="GridCell.Tab.0.right" timestamp="1578492279111">
+    <state width="1302" height="185" key="GridCell.Tab.0.right" timestamp="1578493057946">
       <screen x="0" y="23" width="1344" height="740" />
     </state>
-    <state width="1302" height="185" key="GridCell.Tab.0.right/0.23.1344.740@0.23.1344.740" timestamp="1578492279111" />
+    <state width="1302" height="185" key="GridCell.Tab.0.right/0.23.1344.740@0.23.1344.740" timestamp="1578493057946" />
     <state width="1302" height="185" key="GridCell.Tab.0.right/0.23.1344.743@0.23.1344.743" timestamp="1578486062480" />
     <state x="168" y="46" key="SettingsEditor" timestamp="1578482499587">
       <screen x="0" y="23" width="1344" height="745" />
     </state>
     <state x="168" y="46" key="SettingsEditor/0.23.1344.745@0.23.1344.745" timestamp="1578482499587" />
+    <state x="332" y="87" width="670" height="676" key="search.everywhere.popup" timestamp="1578492674345">
+      <screen x="0" y="23" width="1344" height="740" />
+    </state>
+    <state x="332" y="87" width="670" height="676" key="search.everywhere.popup/0.23.1344.740@0.23.1344.740" timestamp="1578492674345" />
   </component>
 </project>
